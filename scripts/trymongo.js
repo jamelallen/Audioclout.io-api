@@ -1,7 +1,8 @@
-require('dotenv').config();
-const { MongoClient } = require('mongodb');
+import { MongoClient } from 'mongodb';
 
-const url = process.env.DB_URL || 'mongodb://localhost/issuetracker';
+require('dotenv').config();
+
+const url = process.env.DB_URL || 'mongodb+srv://jamelallen:!UGA24melo@audioclout-iodb.mb6cs.mongodb.net/audioclout-ioDB?retryWrites=true&w=majority';
 
 function testWithCallbacks(callback) {
   console.log('\n--- testWithCallbacks ---');

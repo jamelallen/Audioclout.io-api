@@ -5,6 +5,7 @@
  *   mongo issuetracker scripts/init.mongo.js
  * Atlas:
  *   mongo mongodb+srv://user:pwd@xxx.mongodb.net/issuetracker scripts/init.mongo.js
+ *   mongo "mongodb+srv://audioclout-iodb.mb6cs.mongodb.net/Audioclout-ioDB" --username jamelallen
  * MLab:
  *   mongo mongodb://user:pwd@xxx.mlab.com:33533/issuetracker scripts/init.mongo.js
  */
