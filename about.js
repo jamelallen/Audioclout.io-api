@@ -1,6 +1,6 @@
 const { mustBeSignedIn } = require('./auth');
 
-let aboutMessage = 'Issue Tracker API v1.0';
+let aboutMessage = 'Audioclout.io API v1.0';
 
 function setMessage(_, { message }) {
   aboutMessage = message;
